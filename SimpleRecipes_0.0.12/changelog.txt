@@ -1,0 +1,47 @@
+v0.0.12
+Change Player to Character for new 0.17 version
+
+v0.0.11
+Fix Electric-energy-distribution-1 does not exist
+
+v0.0.10
+Fix Uranium needs Sulfuric Acid (Thanks to londo_milar )
+
+v0.0.9
+Redo from scratch for the 0.17 version of Factorio
+
+v0.08
+Buggy Burner Mining Drill
+
+v0.07
+Hide the barreling stuff (not used)
+
+v0.06
+Some texts simplified
+
+v0.05
+- Remove Tags not-flammable
+- Remove some icons, add another (I cant hide barreling icons, help me)
+- Double+ plastic-bar output (now generates 5 instead 2)
+- Advanced-circuit and Processing-unit now demands 1/3 of time 
+- Restored the inserters stack bonus technology
+- Energy not so easy (Furnaces consuming more)(steam-engine/solar effectivity 3 times the normal game) 
+- Slower Handcrafting
+
+Special thanks to Antichaos for the suggestions.
+
+v0.03
+- No Clouds
+- Bug Correction (Hide itens that we dont use)
+- New Machine Colors
+- Always Day
+-Different Soundtrack
+- Blue Iron-Plate (like the ore)
+
+v0.0.2
+- New Vibrant Tiles
+- Bug Correction
+
+v0.01
+- Simple Recipes
+- Easy Combat

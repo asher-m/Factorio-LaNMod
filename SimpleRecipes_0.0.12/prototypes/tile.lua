@@ -1,0 +1,15 @@
+data.raw["tile"]["dry-dirt"] = nil
+data.raw["tile"]["dirt-1"] = nil
+data.raw["tile"]["dirt-2"] = nil
+data.raw["tile"]["dirt-3"] = nil
+data.raw["tile"]["dirt-4"] = nil
+data.raw["tile"]["dirt-5"] = nil
+data.raw["tile"]["dirt-6"] = nil
+data.raw["tile"]["dirt-7"] = nil
+data.raw["tile"]["sand-1"] = nil
+data.raw["tile"]["sand-2"] = nil
+data.raw["tile"]["sand-3"] = nil
+data.raw["tile"]["red-desert-0"] = nil
+data.raw["tile"]["red-desert-1"] = nil
+data.raw["tile"]["red-desert-2"] = nil
+data.raw["tile"]["red-desert-3"] = nil
