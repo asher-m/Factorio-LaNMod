@@ -17,8 +17,8 @@ info = {
     "title": "LaNMod",
     "author": "h4ck3r_d00d",
     "description": "Losers and Nitwits' Mod: For us mere mortals, make the game short enough to finish in the duration of a LAN party.",
-	"dependencies": ["base >= 0.17"],
-	"homepage": "https://github.com/asher-m/Factorio-LaNMod",
+    "dependencies": ["base >= 0.17"],
+    "homepage": "https://github.com/asher-m/Factorio-LaNMod",
     "factorio_version": "0.17"
 }
 """ The mod's settings and properties. """
