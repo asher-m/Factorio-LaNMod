@@ -14,7 +14,7 @@ import zipfile
 info = {
     "name": "LaNMod",
     "version": "0.0.0",
-    "title": "LaNMod: Losers and Nincompoops' Mod",
+    "title": "LaNMod: Losers and Nitwits' Mod",
     "author": "h4ck3r_d00d",
     "description": "For us mere mortals, make the game short enough to finish in the duration of a LAN party.",
 	"dependencies": ["base >= 0.17"],
