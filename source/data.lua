@@ -1,5 +1,4 @@
 require("prototypes.achievements")
-require("prototypes.ambient-sounds")
 require("prototypes.autobarrel")
 require("prototypes.decoratives")
 require("prototypes.entity")
