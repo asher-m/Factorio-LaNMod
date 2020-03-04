@@ -44,6 +44,9 @@ def main():
         z.write('changelog.txt', os.path.join(target, 'changelog.txt'))
         if os.path.exists('README.md'):
             z.write('README.md', os.path.join(target, 'README.md'))
+        if os.path.exists('LICENSE'):
+            z.write('LICENSE', os.path.join(target, 'LICENSE'))
+
 
 def dest(root, file):
     """ Cut out the modroot and append the target dir because Factorio requires
