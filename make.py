@@ -46,6 +46,8 @@ def main():
             z.write('README.md', os.path.join(target, 'README.md'))
         if os.path.exists('LICENSE'):
             z.write('LICENSE', os.path.join(target, 'LICENSE'))
+        # 0.17 and up require a thumbnail, so include it as well:
+        z.write('thumbnail/thumbnail.png', os.path.join(target, 'thumbnail.png'))
 
 
 def dest(root, file):
