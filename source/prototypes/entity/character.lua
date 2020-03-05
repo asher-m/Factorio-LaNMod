@@ -11,4 +11,4 @@ data.raw["character"]["character"].loot_pickup_distance = 2
 data.raw["character"]["character"].enter_vehicle_distance = 3
 data.raw["character"]["character"].reach_resource_distance = 2.7
 data.raw["character"]["character"].running_speed = 0.20
-data.raw["character"]["character"].mining_speed = 10
+data.raw["character"]["character"].mining_speed = 4
