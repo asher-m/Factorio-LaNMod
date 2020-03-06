@@ -5,7 +5,7 @@ General changes and what exists:
   - level 1: crafts at 0.75 speed, can make any assembly machine recipe
   - level 2: crafts at 1.50 speed, can make any assembly machine recipe
   - level 3: crafts at 3.00 speed
-- Player mining speed set to 10.
+- Player mining speed set to 4.
 -  Custom thumbnail for project.
 - Cheaper cliff explosives.
   - And associated tech rearranging to make it make sense.
