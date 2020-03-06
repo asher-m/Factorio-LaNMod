@@ -23,3 +23,6 @@ data:extend(
     order = "a[fluid]-b[LaNMod-oil]"
   }
 })
+
+-- sulfuric-acid
+data.raw["fluid"]["sulfuric-acid"].icon = "__LaNMod__/graphics/icons/fluid/sulfuric-acid.png"
