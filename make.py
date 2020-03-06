@@ -38,7 +38,8 @@ def main():
         # Handle all files:
         for root, dirs, files in os.walk(modroot):
             for f in files:
-                z.write(os.path.join(root, f), dest(root, f))
+                if ".xcf" not in f:
+                    z.write(os.path.join(root, f), dest(root, f))
         # Handle info.json, changelog.txt, README.md, (when I write it):
         z.writestr(os.path.join(target, 'info.json'), json.dumps(info, indent=4))
         z.write('changelog.txt', os.path.join(target, 'changelog.txt'))
@@ -48,7 +49,6 @@ def main():
             z.write('LICENSE', os.path.join(target, 'LICENSE'))
         # 0.17 and up require a thumbnail, so include it as well:
         z.write('thumbnail/thumbnail.png', os.path.join(target, 'thumbnail.png'))
-
 
 def dest(root, file):
     """ Cut out the modroot and append the target dir because Factorio requires
