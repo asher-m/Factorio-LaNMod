@@ -16,5 +16,6 @@ require("prototypes.technology.advanced-oil-processing")
 require("prototypes.technology.basic-oil-processing")
 require("prototypes.technology.cliff-explosives")
 require("prototypes.technology.explosives")
+require("prototypes.technology.sulfur-processing")
 
 require("prototypes.fluid")

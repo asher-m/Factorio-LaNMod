@@ -19,9 +19,5 @@ data.raw["technology"]["oil-processing"].effects =
     {
         type = "unlock-recipe",
         recipe = "solid-fuel-from-LaNMod-oil"
-    },
-    {
-        type = "unlock-recipe",
-        recipe = "oxidizer"
     }
 }
