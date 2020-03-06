@@ -17,6 +17,8 @@ data.raw["recipe"]["advanced-oil-processing"].results =
 {
     {type="fluid", name="LaNMod-oil", amount=120, fluidbox_index = 3}
 }
+-- Used to get the product to appear in the tooltip if one product:
+data.raw["recipe"]["advanced-oil-processing"].main_product = ""
 
 -- coal-liquefaction
 data.raw["recipe"]["coal-liquefaction"].ingredients =
@@ -30,6 +32,8 @@ data.raw["recipe"]["coal-liquefaction"].results =
     {type="fluid", name="LaNMod-oil", amount=120, fluidbox_index = 3}
 }
 data.raw["recipe"]["coal-liquefaction"].icon = "__LaNMod__/graphics/icons/fluid/coal-liquefaction.png"
+-- Used to get the product to appear in the tooltip if one product:
+data.raw["recipe"]["coal-liquefaction"].main_product = ""
 
 -- heavy-oil-cracking
 data.raw["recipe"]["heavy-oil-cracking"] = nil
