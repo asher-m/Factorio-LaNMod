@@ -42,7 +42,7 @@ def main():
                     z.write(os.path.join(root, f), dest(root, f))
         # Handle info.json, changelog.txt, README.md, (when I write it):
         z.writestr(os.path.join(target, 'info.json'), json.dumps(info, indent=4))
-        z.write('changelog.txt', os.path.join(target, 'changelog.txt'))
+        z.write('CHANGELOG.md', os.path.join(target, 'CHANGELOG.md'))
         if os.path.exists('README.md'):
             z.write('README.md', os.path.join(target, 'README.md'))
         if os.path.exists('LICENSE'):
