@@ -74,17 +74,49 @@ data:extend(
         {
             {type="item", name="solid-fuel", amount=1}
         },
-        icon = "__LaNMod__/graphics/icons/solid-fuel-from-LaNMod-oil.png",
+        icon = "__base__/graphics/icons/solid-fuel.png",
         icon_size = 32,
         subgroup = "fluid-recipes",
         enabled = false,
-        order = "b[fluid-chemistry]-e[solid-fuel-from-LaNMod-oil]",
+        order = "b-c",
         crafting_machine_tint =
         {
-            primary = {r = 0.889, g = 0.628, b = 0.566, a = 1.000}, -- #e2a090ff
-            secondary = {r = 0.803, g = 0.668, b = 0.644, a = 1.000}, -- #ccaaa4ff
-            tertiary = {r = 0.854, g = 0.659, b = 0.576, a = 1.000}, -- #d9a892ff
-            quaternary = {r = 1.000, g = 0.395, b = 0.127, a = 1.000}, -- #ff6420ff
+            primary = {r = 0.768, g = 0.631, b = 0.768, a = 1.000}, -- #c3a0c3ff
+            secondary = {r = 0.659, g = 0.592, b = 0.678, a = 1.000}, -- #a896acff
+            tertiary = {r = 0.774, g = 0.631, b = 0.766, a = 1.000}, -- #c5a0c3ff
+            quaternary = {r = 0.564, g = 0.364, b = 0.564, a = 1.000}, -- #8f5c8fff
+        }
+    }
+})
+
+-- oxidizer
+data:extend(
+{
+    {
+        type = "recipe",
+        name = "oxidizer",
+        category = "chemistry",
+        energy_required = 2,
+        ingredients =
+        {
+            {type="item", name="sulfur", amount=20},
+            {type="fluid", name="LaNMod-oil", amount=10}
+        },
+        results=
+        {
+            {type="item", name="oxidizer", amount=1}
+        },
+        icon = "__LaNMod__/graphics/icons/oxidizer.png",
+        icon_size = 32,
+        subgroup = "fluid-recipes",
+        enabled = false,
+        order = "b-d",
+        crafting_machine_tint =
+        {
+            primary = {r = 0.894, g = 0.863, b = 0.808, a = 1.000}, -- #e4dcceff
+            secondary = {r = 1.000, g = 0.902, b = 0.812, a = 1.000}, -- #ffe6cfff
+            tertiary = {r = 0.834, g = 0.818, b = 0.666, a = 1.000}, -- #d5d1aaff
+            quaternary = {r = 0.622, g = 0.622, b = 0.622, a = 1.000}, -- #9f9f9fff
         }
     }
 })
@@ -92,9 +124,15 @@ data:extend(
 -- sulfur
 data.raw["recipe"]["sulfur"].ingredients =
 {
-    {type="fluid", name="water", amount=30},
-    {type="item", name="coal", amount=10}
+    {type="fluid", name="LaNMod-oil", amount=10},
+    {type="fluid", name="steam", amount=20},
+    {type="item", name="coal", amount=4}
 }
+data.raw["recipe"]["sulfur"].results=
+{
+    {type="item", name="sulfur", amount=4}
+}
+data.raw["recipe"]["sulfur"].energy_required = 4
 
 -- lubricant
 data.raw["recipe"]["lubricant"].ingredients =

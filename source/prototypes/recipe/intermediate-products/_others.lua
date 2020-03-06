@@ -12,5 +12,7 @@ data.raw["recipe"]["electronic-circuit"]["normal"].ingredients =
 data.raw["recipe"]["rocket-fuel"].ingredients =
 {
     {"solid-fuel", 10},
-    {type="fluid", name="LaNMod-oil", amount=10}
+    {"oxidizer", 4},
+    {"steel-plate", 4}
 }
+data.raw["recipe"]["rocket-fuel"].category = "crafting"

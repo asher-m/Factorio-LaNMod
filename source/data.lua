@@ -3,6 +3,7 @@ require("prototypes.entity.assembling-machine")
 require("prototypes.entity.character")
 require("prototypes.entity.mining-drill")
 
+require("prototypes.item._others")
 require("prototypes.item.module")
 
 require("prototypes.recipe.fluid")
