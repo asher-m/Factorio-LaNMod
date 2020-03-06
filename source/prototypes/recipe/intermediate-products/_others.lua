@@ -7,3 +7,10 @@ data.raw["recipe"]["electronic-circuit"]["normal"].ingredients =
     {"iron-plate", 1},
     {"copper-cable", 2}
 }
+
+-- rocket-fuel
+data.raw["recipe"]["rocket-fuel"].ingredients =
+{
+    {"solid-fuel", 10},
+    {type="fluid", name="LaNMod-oil", amount=10}
+}
