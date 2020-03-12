@@ -18,6 +18,6 @@ data.raw["technology"]["oil-processing"].effects =
     },
     {
         type = "unlock-recipe",
-        recipe = "solid-fuel-from-LaNMod-oil"
+        recipe = "solid-fuel-from-oil"
     }
 }

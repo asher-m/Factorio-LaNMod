@@ -9,7 +9,7 @@ data.raw["recipe"]["basic-oil-processing"].ingredients =
 }
 data.raw["recipe"]["basic-oil-processing"].results =
 {
-    {type="fluid", name="LaNMod-oil", amount=60, fluidbox_index = 3},
+    {type="fluid", name="oil", amount=60, fluidbox_index = 3},
 }
 
 -- advanced-oil-processing
@@ -20,7 +20,7 @@ data.raw["recipe"]["advanced-oil-processing"].ingredients =
 }
 data.raw["recipe"]["advanced-oil-processing"].results =
 {
-    {type="fluid", name="LaNMod-oil", amount=160, fluidbox_index = 3}
+    {type="fluid", name="oil", amount=160, fluidbox_index = 3}
 }
 -- Used to get the product to appear in the tooltip if one product:
 data.raw["recipe"]["advanced-oil-processing"].main_product = ""
@@ -30,11 +30,11 @@ data.raw["recipe"]["coal-liquefaction"].ingredients =
 {
     {type="item", name="coal", amount=20},
     {type="fluid", name="steam", amount=60, fluidbox_index = 1},
-    {type="fluid", name="LaNMod-oil", amount=20, fluidbox_index = 2}
+    {type="fluid", name="oil", amount=20, fluidbox_index = 2}
 }
 data.raw["recipe"]["coal-liquefaction"].results =
 {
-    {type="fluid", name="LaNMod-oil", amount=100, fluidbox_index = 3}
+    {type="fluid", name="oil", amount=100, fluidbox_index = 3}
 }
 data.raw["recipe"]["coal-liquefaction"].icon = "__LaNMod__/graphics/icons/fluid/coal-liquefaction.png"
 -- Used to get the product to appear in the tooltip if one product:
@@ -52,7 +52,7 @@ data.raw["recipe"]["sulfuric-acid"].order = "h[sulfuric-acid]"
 -- plastic-bar
 data.raw["recipe"]["plastic-bar"].ingredients =
 {
-    {type="fluid", name="LaNMod-oil", amount=40},
+    {type="fluid", name="oil", amount=40},
     {type="item", name="coal", amount=4}
 }
 data.raw["recipe"]["plastic-bar"].results =
@@ -67,17 +67,17 @@ data.raw["recipe"]["solid-fuel-from-petroleum-gas"] = nil
 -- solid-fuel-from-heavy-oil
 data.raw["recipe"]["solid-fuel-from-heavy-oil"] = nil
 
--- solid-fuel-from-LaNMod-oil
+-- solid-fuel-from-oil
 data:extend(
 {
     {
         type = "recipe",
-        name = "solid-fuel-from-LaNMod-oil",
+        name = "solid-fuel-from-oil",
         category = "chemistry",
         energy_required = 2,
         ingredients =
         {
-            {type="fluid", name="LaNMod-oil", amount=20}
+            {type="fluid", name="oil", amount=20}
         },
         results=
         {
@@ -109,7 +109,7 @@ data:extend(
         ingredients =
         {
             {type="item", name="sulfur", amount=20},
-            {type="fluid", name="LaNMod-oil", amount=10}
+            {type="fluid", name="oil", amount=10}
         },
         results=
         {
@@ -133,7 +133,7 @@ data:extend(
 -- sulfur
 data.raw["recipe"]["sulfur"].ingredients =
 {
-    {type="fluid", name="LaNMod-oil", amount=20},
+    {type="fluid", name="oil", amount=20},
     {type="fluid", name="steam", amount=60},
     {type="item", name="coal", amount=8}
 }
@@ -146,7 +146,7 @@ data.raw["recipe"]["sulfur"].energy_required = 4
 -- lubricant
 data.raw["recipe"]["lubricant"].ingredients =
 {
-    {type="fluid", name="LaNMod-oil", amount=10},
+    {type="fluid", name="oil", amount=10},
     {type="fluid", name="steam", amount=10},
     {type="item", name="sulfur", amount=4}
 }

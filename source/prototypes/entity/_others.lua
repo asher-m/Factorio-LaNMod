@@ -5,5 +5,5 @@ data.raw["wall"]["stone-wall"].max_health = 200
 data.raw["fluid-turret"]["flamethrower-turret"]["attack_parameters"].fluids =
 {
     {type = "crude-oil"},
-    {type = "LaNMod-oil", damage_modifier = 1.2},
+    {type = "oil", damage_modifier = 1.2},
 }

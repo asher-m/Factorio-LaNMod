@@ -12,7 +12,7 @@ function productivity_module_limitation()
         -- "solid-fuel-from-heavy-oil",
         -- "solid-fuel-from-petroleum-gas",
         -- Add this:
-        "solid-fuel-from-LaNMod-oil",
+        "solid-fuel-from-oil",
         "lubricant",
         "iron-plate",
         "copper-plate",
