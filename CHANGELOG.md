@@ -1,3 +1,16 @@
+# LaNMod 0.1.1 -- 11 March 2020
+Changes:
+- [Balance] Sulfur changes:
+  - Removed sulfur as a product from Advanced Oil Processing and Coal Liquefaction.
+  - Added additional sulfur as output from Sulfur Processing.  (Old output was 8 coal to 4 sulfur, new is 8 coal to 8 sulfur.)
+  - __Why:__ Previously too much sulfur was created "accidentally", and the game miscalculated the total amount of crude oil required to launch a rocket.  By removing the other two sources of sulfur, the player is encouraged (forced) to set up separate sulfur processing.  Also, the game now correctly calculates the raw resources for a rockets, (ie., rocket parts, rocket fuel, etc...).
+
+- [Technical] Renamed `LaNMod-oil` to just `oil`
+  - Specifying `LaNMod-oil` while typing was annoying.  It was originally used to avoid conflicts, but it doesn't seem like this will be a problem so it's easier to just replace everything and save myself the time of typing.
+  - Included migration scripts to handle migration.  (Not a feature, really just something that I'm glad I remembered.)
+
+---
+
 # LaNMod 0.1.0 -- 6 March 2020
 General changes and what exists:
 - Include `make.py` script to build mod.
